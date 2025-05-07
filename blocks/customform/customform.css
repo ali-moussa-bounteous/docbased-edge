@@ -1,0 +1,80 @@
+/* General form styling */
+.customform {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Label styling */
+.customform label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input and textarea styling */
+.customform input,
+.customform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Input focus styling */
+.customform input:focus,
+.customform textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button styling */
+.customform button[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.customform button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Checkbox and radio styling */
+.customform input[type="checkbox"],
+.customform input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Align checkboxes and radios with labels on one line */
+.customform .checkbox-group,
+.customform .radio-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+.customform .checkbox-group input,
+.customform .radio-group input {
+  width: auto;
+}
+
+/* Form spacing */
+.customform div {
+  margin-bottom: 20px;
+}
